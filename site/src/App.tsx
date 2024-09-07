@@ -12,7 +12,7 @@ function App() {
       const descriptions: Record<string, string> = {};
       for (const project of projects) {
         try {
-          const response = await fetch(`/project-descriptions/${project.name}.txt`);
+          const response = await fetch(`${import.meta.env.BASE_URL}project-descriptions/${project.name}.txt`);
           if (response.ok) {
             descriptions[project.name] = await response.text();
           }
@@ -33,20 +33,20 @@ function App() {
           <h1 className="text-3xl font-bold mb-2 italic">Hello, my name is Sam</h1>
           <p className="text-sm">Here's some stuff I've done.</p>
         </header>
-        <main className="max-w-6xl mx-auto px-4">
+        <main className="px-4"> {/* Remove max-w-6xl and mx-auto */}
           <h2 className="text-2xl font-bold mb-4">Past Projects</h2>
           <div className="flex justify-start">
-            <hr className="w-1/4 border-t-2 border-gray-800 mb-4" />
+            <hr className="w-1/2 border-t-2 border-gray-800 mb-4" />
           </div>
           <ul className="list-none p-0">
             {projects.map((project, index) => (
               <li key={index} className="mb-6">
                 <div className="flex flex-col">
-                  <a href={project.url} className="text-blue-600 hover:underline text-lg mb-2">
+                  <a href={project.url} className="text-blue-600 hover:underline text-lg mb-2 italic">
                     {project.name}
                   </a>
                   {projectDescriptions[project.name] && (
-                    <p className="text-sm mb-2">{projectDescriptions[project.name]}</p>
+                    <p className="text-sm mb-2 w-2/3">{projectDescriptions[project.name]}</p>
                   )}
                   <p className="text-xs text-gray-600">
                     Technologies: {project.technologies.join(', ')}
