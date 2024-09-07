@@ -1,0 +1,4 @@
+A Twitter+Discord app that my friend and I made. We created specific Discord 
+commands to subscribe to Twitter users and then notify the user in a specific 
+channel when the subscribed user posted. We also added the functionality to 
+send SMS notifications when a subscribed user posted. Sadly discontinued due to Twitter's API changes.
