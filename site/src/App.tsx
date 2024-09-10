@@ -29,18 +29,14 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen font-serif text-left bg-[#f8f7f2]">
       <div className="flex-grow">
-        <header className="mb-10 pt-4 px-4">
-          <h1 className="text-3xl font-bold mb-2 italic">Hello, my name is Sam</h1>
-          <p className="text-sm">Here's some stuff I've done.</p>
-        </header>
         <main className="px-4"> {/* Remove max-w-6xl and mx-auto */}
-          <h2 className="text-2xl font-bold mb-4">Past Projects</h2>
+          <h2 className="text-2xl font-bold mb-4 mt-3">Past Projects</h2>
           <div className="flex justify-start">
             <hr className="w-1/2 border-t-2 border-gray-800 mb-4" />
           </div>
           <ul className="list-none p-0">
             {projects.map((project, index) => (
-              <li key={index} className="mb-6">
+              <li key={index} className="mb-6 ml-10">
                 <div className="flex flex-col">
                   <a href={project.url} className="text-blue-600 hover:underline text-lg mb-2 italic">
                     {project.name}
