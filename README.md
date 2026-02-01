@@ -1,23 +1,15 @@
+## Featured Projects
 
-<div align="center">
-  <h2>
-    <a href="https://slamwise.github.io/Slamwise/">
-      My Website!
-    </a>
-  </h2>
-</div>
+**[MaterialDiscovery](https://github.com/Slamwise/MaterialDiscovery)** -- Active-learning platform for discovering novel ultra-high temperature ceramics using Bayesian optimization, MACE neural network potentials, and molecular dynamics simulation.
 
-<!--
-**Slamwise/Slamwise** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**[Trading-Pattern-Detection](https://github.com/Slamwise/Trading-Pattern-Detection)** -- Algorithmic detection of technical trading patterns with backtesting.
 
-Here are some ideas to get you started:
+**[Quant-Terminal](https://github.com/Slamwise/Quant-Terminal)** -- Quantitative finance terminal for market analysis and strategy development.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[HippAI](https://github.com/Slamwise/HippAI)** -- AI-powered application.
+
+**[Limina](https://github.com/Slamwise/Limina)** -- Software project.
+
+**[cafe-racer](https://github.com/Slamwise/cafe-racer)** -- Cafe racer project.
+
+**[aiEngineer](https://github.com/Slamwise/aiEngineer)** -- AI engineering tools and utilities.
