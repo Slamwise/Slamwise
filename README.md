@@ -31,7 +31,7 @@
 
 ### Computer Vision & Scraping
 
-- 👁️ **[computer-vision-scraper-yolov4](https://github.com/Slamwise/computer-vision-scraper-yolov4)** — End-to-end pipeline that screenshots web listings via headless Puppeteer (stealth plugin + proxy rotation + UA spoofing), then runs YOLOv4-tiny darknet object detection to locate and crop listing elements, with Tesseract OCR for text extraction. Fully automated: crawl → screenshot → detect → crop → read. ![Status](https://img.shields.io/badge/status-complete-brightgreen?style=flat-square)
+- 👁️ **[computer-vision-scraper-yolov4](https://github.com/Slamwise/computer-vision-scraper-yolov4)** — Vision-first eBay sold-listing scraper that bypasses fragile HTML selectors entirely. Puppeteer captures full-page screenshots through rotating proxies, a custom-trained YOLOv4-tiny model draws bounding boxes around price, date, title, and product image, then Tesseract OCR reads the cropped regions into structured data. No HTML parsing required. ![Status](https://img.shields.io/badge/status-archived%20POC-lightgrey?style=flat-square)
 
 ### Quantitative Finance & Trading
 
