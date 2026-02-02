@@ -29,6 +29,10 @@
 
 - 🏭 **[aiEngineer](https://github.com/Slamwise/aiEngineer)** — Full-stack manufacturing cost estimation platform. Describe a project in plain language → multi-agent AI routes it through Mechanical, Electrical, Materials, and Process specialist engineers → consolidated Bill of Materials + cost breakdown. React 18 + TypeScript + Radix UI + Tailwind frontend, Express + Drizzle ORM + PostgreSQL backend, OpenAI orchestration. ![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
 
+### Computer Vision & Scraping
+
+- 👁️ **[computer-vision-scraper-yolov4](https://github.com/Slamwise/computer-vision-scraper-yolov4)** — End-to-end pipeline that screenshots web listings via headless Puppeteer (stealth plugin + proxy rotation + UA spoofing), then runs YOLOv4-tiny darknet object detection to locate and crop listing elements, with Tesseract OCR for text extraction. Fully automated: crawl → screenshot → detect → crop → read. ![Status](https://img.shields.io/badge/status-complete-brightgreen?style=flat-square)
+
 ### Quantitative Finance & Trading
 
 - 📊 **[Backtesting](https://github.com/Slamwise/Backtesting)** — Strategy backtesting engine paired with YOLOv8 computer vision for detecting chart patterns (head-and-shoulders, wedges, flags) directly from candlestick images and live video streams. Real-time BTC analysis via Kraken WebSocket, interactive Plotly visualizations, SQLite persistence. PyTorch + OpenCV + ultralytics. ![Status](https://img.shields.io/badge/status-prototype-blue?style=flat-square)
